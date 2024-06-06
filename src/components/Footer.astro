@@ -1,0 +1,25 @@
+---
+const platform = "github";
+const username = "johanjaguardev";
+const networks = [{
+    platform: "github",
+    username: "johanjaguardev",
+    message: "Learn more about my projects on "
+  }, {
+    platform: "twitter",
+    username: "j0h4n_wtf",
+    message: "Follow me on "
+  },
+  {
+    platform: "instagram",
+    username: "j0h4n_wtf",
+    message: "Check my photos on "
+  }
+];
+---
+
+<footer>
+  <ul>
+    {networks.map((network) => <li class="network">{network.message} <a href={`https://www.${network.platform}.com/${network.username}`} target="_blank"><b>{network.username}</b></a>!</li>)}
+  </ul>
+</footer>
