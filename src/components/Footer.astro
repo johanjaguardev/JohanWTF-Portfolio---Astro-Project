@@ -14,10 +14,17 @@ const networks = [{
     message: "Check my photos on "
   }
 ];
+import Social from './Social.astro';
 ---
-
+<style>
+  footer {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+</style>
 <footer>
   <ul>
-    {networks.map((network) => <li class="network">{network.message} <a href={`https://www.${network.platform}.com/${network.username}`} target="_blank"><b>{network.username}</b></a>!</li>)}
+    {networks.map((network) => <li><Social platform={network.platform} username={network.username} message={network.message} /></li>)}
   </ul>
 </footer>

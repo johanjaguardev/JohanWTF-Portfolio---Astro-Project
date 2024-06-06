@@ -1,0 +1,13 @@
+---
+const { platform, username, message } = Astro.props;
+---
+<span>{message} <a href={`https://www.${platform}.com/${username}`} target="_blank"><b>{username}</b></a>!</span>
+<style>
+  a {
+    color: white;
+    background-color: #4c1d95;
+    margin: 0.5rem;
+    padding: 0.1rem .1rem;
+    text-decoration: none;
+  }
+</style>
