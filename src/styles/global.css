@@ -44,6 +44,7 @@ h1 {
 }
 
 .nav-links a {
+  cursor: pointer;
   display: block;
   text-align: center;
   padding: 10px 0;
@@ -78,4 +79,14 @@ h1 {
   .hamburger {
     display: none;
   }
+}
+
+html.dark {
+  background-color: #0d0950;
+  color: #fff;
+}
+
+.dark .nav-links a {
+  color: #fff;
+  cursor: pointer;
 }
