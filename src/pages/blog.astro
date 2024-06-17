@@ -8,7 +8,7 @@ const pageTitle = "Home Page";
 	<h1>{pageTitle}</h1>
 	<p>This site where I will post about my journey Learning Astro.</p>
 	<ul>
-		{allPosts.map((post) => <BlogPost url={post.url} title={post.frontmatter.title} />)}
+		{allPosts.reverse().map((post) => <BlogPost url={post.url} title={post.frontmatter.title} />)}
 	</ul>
 </BaseLayout>
 	

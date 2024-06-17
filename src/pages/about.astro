@@ -10,12 +10,11 @@ const identity = {
 const skills = ["HTML", "CSS", "JavaScript", "React", "Node.js", "MongoDB", "Angular", "Vue.js", "Wordpress", "Astro", "Java", ".Net", "python", "GraphQL", "REST API", "SQL"];
 
 const happy = true;
-const finished = true;
 const goal = 3;
 ---
 <BaseLayout pageTitle={pageTitle}>
   <h1>{pageTitle}</h1>
-  <h2>... and my new Astro Site!</h2>
+  <h2>... and my new Portolio in Astro!</h2>
   <p>Here are a few facts about me:</p>
   <ul>
     <li>My name is {identity.firstName}.</li>
@@ -30,7 +29,6 @@ const goal = 3;
   </ul>
 
   {happy && <p>I am happy to be learning Astro!</p>}
-  {finished && <p>I finished this tutorial!</p>}
   {goal === 3 ? <p>My goal is to finish in 3 days.</p> : <p>My goal is not 3 days.</p>}
 </BaseLayout>
 
