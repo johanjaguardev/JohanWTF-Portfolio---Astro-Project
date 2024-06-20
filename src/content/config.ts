@@ -1,5 +1,19 @@
 import { defineCollection, z } from "astro:content";
 
+const projectsCollection = defineCollection({
+  schema: z.object({
+    title: z.string(),
+    description: z.string(),
+    images: z.array(
+      z.object({
+        url: z.string(),
+        alt: z.string()
+      })
+    ),
+    skills: z.array(z.string())
+  })
+});
+
 const postsCollection = defineCollection({
   schema: z.object({
     title: z.string(),
@@ -14,19 +28,6 @@ const postsCollection = defineCollection({
   })
 });
 
-const projectsCollection = defineCollection({
-  schema: z.object({
-    title: z.string(),
-    description: z.string(),
-    images: z.array(
-      z.object({
-        url: z.string(),
-        alt: z.string()
-      })
-    ),
-    skills: z.array(z.string())
-  })
-});
 
 export const collections = {
   posts: postsCollection,
