@@ -2,8 +2,8 @@
 title: 'RentingCarz'
 description: '“A Matrix formatted page to show a lot of alternatives to rental car in one page, based in Yii Framework backend + React and boostrap frontend.”'
 images: [{
-  url: 'test.jpg',
-  alt: 'uno'
+  url: '/renting-carz-1.png',
+  alt: 'RentingCarz Homepage Matrix - Desktop'
 }]
 skills: [
   "Web Development",

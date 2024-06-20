@@ -1,4 +1,26 @@
 ---
-const { title, url } = Astro.props
+import { imageConfig } from "astro:assets"
+
+const { title, url, image } = Astro.props
 ---
-<li><a href={url}>{title}</a></li>
+<li class="blogpost__li">
+  <a href={url}><img class="blogpost__img" src={`${image.url}`} alt={`${image.alt}/`} /></a>
+  <a href={url}>{title}</a>
+  
+</li>
+<style lang="scss">
+  .blogpost {
+    &__li {
+      align-items: center;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      margin-bottom: 1rem;
+    }
+    &__img {
+      margin: 1rem;
+      max-width: 200px;
+    }
+  }
+
+</style>

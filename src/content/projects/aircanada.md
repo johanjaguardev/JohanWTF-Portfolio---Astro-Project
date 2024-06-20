@@ -2,8 +2,8 @@
 title: 'Aircanada by Amadeus'
 description: '“The new Air Canada homepage features a Single Page Application (SPA) design, optimized for desktop, tablet, and mobile devices. It supports multiple languages and ensures full accessibility (A11Y) for screen readers such as NVDA, JAWS (Windows), and VoiceOver (Mac OS).”'
 images: [{
-  url: 'test.jpg',
-  alt: 'uno'
+  url: '/ac-desktop-1.png',
+  alt: 'Aircanada Desktop'
 }]
 skills: [
 "Angular",
@@ -40,6 +40,6 @@ This initiative allowed Air Canada to optimize its distribution via the Amadeus 
 In response to the challenge, our team successfully developed a modern website that emulates the look and feel of a single-page application. This responsive site is compatible with major browsers and optimized for accessibility, ensuring a positive user experience for all, including those who rely on screen readers. By prioritizing accessibility (a11y), we aimed to create an inclusive digital platform for Air Canada’s travelers.
 
 
-![Placeholder Image](/ac-desktop-1.png)
-![Placeholder Image](/ac-mobile-1.png)
-![Placeholder Image](/ac-mobile-1.png)
+![Aircanada Desktop](/ac-desktop-1.png)
+![Aircanada Tablet](/ac-tablet-1.png)
+![Aircanada Mobile](/ac-mobile-1.png)

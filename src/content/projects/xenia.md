@@ -2,8 +2,8 @@
 title: 'Xenia, Library of Classic Studies - Universidad Nacional'
 description: '“Desktop Application to show and read the digital library, Backend application to convert, manage and expose the PDF library by a CMS”'
 images: [{
-  url: 'test.jpg',
-  alt: 'uno'
+  url: '/xenia-desktop-1.png',
+  alt: 'Xenia Desktop Size'
 }]
 skills: [
 "PHP",

@@ -15,7 +15,7 @@ const allPosts = await getCollection("projects");
     <ul>
       {
         allPosts.map((project) => (
-          <BlogPost url={`/projects/${project.slug}/`} title={project.data.title} />
+        <BlogPost url={`/projects/${project.slug}/`} title={project.data.title} image={project.data.images[0]}/>
         ))
       }
     </ul>
