@@ -1,40 +1,30 @@
 ---
-title: 'Aircanada by Amadeus'
-description: '“In the case of the Air Canada project, the challenge was to enhance the airline’s homepage by implementing modern design patterns and user-friendly features Leveraging Angular 17, we aimed to create responsive and accessible components, ensuring compatibility with screen readers (NVDA and VoiceOver). Additionally, we focused on developing pixel-perfect layouts and consistent rendering across various devices and browsers. To manage state efficiently, we implemented Redux. Rigorous unit testing was conducted to validate the functionality and stability of the new home”'
+title: 'RentingCarz'
+description: '“A Matrix formatted page to show a lot of alternatives to rental car in one page, based in Yii Framework backend + React and boostrap frontend.”'
 images: [{
   url: 'test.jpg',
   alt: 'uno'
 }]
 skills: [
-"Angular",
-"CSS 3",
-"HTML5",
-"JavaScript",
-"Sass",
-"TypeScript",
-"RESTful API",
-"Web Application",
-"Web Development",
-"Redux",
-"RxJS",
-"Web Accessibility",
-"Unit Testing",
-"Jasmine",
-"Storybook"
+  "Web Development",
+  "Bootstrap",
+  "Yii2",
+  "PHP",
+  "CSS",
+  "HTML5",
+  "React",
+  "jQuery",
+  "RESTful API",
+  "JavaScript",
+  "CSS 3",
+  "Web Application"
 ]
 ---
 
 ## Project description. 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+I played a key role in developing the initial version of the RentingCarz website, ensuring seamless functionality across mobile, desktop, and tablet devices. The site was available in multiple languages: Spanish, English, Arabic, and Japanese. Additionally, I contributed to a SaaS variant called AgentCars. Our technology stack included PHP, React, HTML, CSS, Sass, and the Yii Framework 2
 
-## Section 1.10.32 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC
-
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
-
-![Placeholder Image](/public/ac-desktop-1.png)
-![Placeholder Image](/public/ac-mobile-1.png)
-![Placeholder Image](/public/ac-mobile-1.png)
-![Placeholder Image](/public/ac-desktop-legacy.png)
-![Placeholder Image](/public/ac-tablet-legacy.png)
-![Placeholder Image](/public/ac-mobile-legacy.png)
+![RentingCarz Homepage Matrix - Desktop](/public/renting-carz-1.png)
+![RentingCarz Homepage Matrix - Desktop](/public/renting-carz-2.png)
+![RentingCarz Homepage Matrix - Desktop](/public/renting-carz-3.png)
