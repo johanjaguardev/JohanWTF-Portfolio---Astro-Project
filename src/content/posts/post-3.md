@@ -1,5 +1,4 @@
 ---
-layout: ../../layouts/MarkdownPostLayout.astro
 title: My Journey into Web Accessibility
 author: 'Johan Vargas Sanchez - JohanWTF'
 description: "I found that A11Y is a underrated and important skill where a Senior Developer could investigate and improve as a developer. This is my new subject to research. Follow me."

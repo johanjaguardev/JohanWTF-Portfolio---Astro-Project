@@ -1,5 +1,4 @@
 ---
-layout: ../../layouts/MarkdownPostLayout.astro
 title: My Journey into Java as an Experienced Frontend Developer
 author: 'Johan Vargas Sanchez - JohanWTF'
 description: "Some words about the research to be an better java developer being a experienced frontend dev."

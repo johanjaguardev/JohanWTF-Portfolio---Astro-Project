@@ -1,5 +1,4 @@
 ---
-layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Building a UX-Driven Portfolio with Astro and Modern JavaScript Technologies'
 pubDate: 2024-06-14
 description: '“Discover how I’m leveraging Astro and modern JavaScript frameworks to build a UX-centric portfolio that circumvents the challenge of displaying private sector work. Join me as I share my journey, personal projects, and future plans in web and backend development.”
