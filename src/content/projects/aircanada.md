@@ -1,6 +1,6 @@
 ---
 title: 'Aircanada by Amadeus'
-description: '“In the case of the Air Canada project, the challenge was to enhance the airline’s homepage by implementing modern design patterns and user-friendly features Leveraging Angular 17, we aimed to create responsive and accessible components, ensuring compatibility with screen readers (NVDA and VoiceOver). Additionally, we focused on developing pixel-perfect layouts and consistent rendering across various devices and browsers. To manage state efficiently, we implemented Redux. Rigorous unit testing was conducted to validate the functionality and stability of the new home”'
+description: '“The new Air Canada homepage features a Single Page Application (SPA) design, optimized for desktop, tablet, and mobile devices. It supports multiple languages and ensures full accessibility (A11Y) for screen readers such as NVDA, JAWS (Windows), and VoiceOver (Mac OS).”'
 images: [{
   url: 'test.jpg',
   alt: 'uno'
@@ -26,15 +26,20 @@ skills: [
 
 ## Project description. 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+In the case of the Air Canada project, the challenge was to enhance the airline’s homepage by implementing modern design patterns and user-friendly features Leveraging Angular 17, we aimed to create responsive and accessible components, ensuring compatibility with screen readers (NVDA and VoiceOver). Additionally, we focused on developing pixel-perfect layouts and consistent rendering across various devices and browsers. To manage state efficiently, we implemented Redux. Rigorous unit testing was conducted to validate the functionality and stability of the new home page
 
-## Section 1.10.32 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC
+![Aircanada Old Desktop Size](/public/ac-desktop-legacy.png)
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+![Aircanada Old Tablet Size](/public/ac-tablet-legacy.png)
+
+![Aircanada Old Mobile Size](/public/ac-mobile-legacy.png)
+
+## Solution Provided
+
+This initiative allowed Air Canada to optimize its distribution via the Amadeus Travel Platform, providing personalized and tailored offers to travelers2.
+In response to the challenge, our team successfully developed a modern website that emulates the look and feel of a single-page application. This responsive site is compatible with major browsers and optimized for accessibility, ensuring a positive user experience for all, including those who rely on screen readers. By prioritizing accessibility (a11y), we aimed to create an inclusive digital platform for Air Canada’s travelers.
+
 
 ![Placeholder Image](/public/ac-desktop-1.png)
 ![Placeholder Image](/public/ac-mobile-1.png)
 ![Placeholder Image](/public/ac-mobile-1.png)
-![Placeholder Image](/public/ac-desktop-legacy.png)
-![Placeholder Image](/public/ac-tablet-legacy.png)
-![Placeholder Image](/public/ac-mobile-legacy.png)
