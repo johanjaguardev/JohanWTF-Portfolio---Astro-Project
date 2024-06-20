@@ -3,10 +3,42 @@ import Hamburger from "./Hamburger.astro";
 import Navigation from "./Navigation.astro";
 import ThemeIcon from "./ThemeIcon.astro";
 ---
-<header>
+<header class="header">
+  <div class="logo">
+    <a href="/">
+      <img class="logo-img" src="/logo-ai.jpg" alt="Johan.wtf logo" />
+    </a>
+  </div>
   <nav>
     <Hamburger />
-    <ThemeIcon />
     <Navigation />
   </nav>
+  <ThemeIcon class="theme-selector"/>
 </header>
+<style>
+  header {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .logo {
+    display: flex;
+    justify-content: flex-start;
+    max-width: 250px;
+    img {
+      max-width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 636px) {
+    .theme-selector {
+      order: 1;
+    }
+    nav {
+      order: 2;
+    }
+  }
+
+</style>

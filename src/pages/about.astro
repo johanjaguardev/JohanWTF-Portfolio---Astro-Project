@@ -13,7 +13,6 @@ const happy = true;
 const goal = 3;
 ---
 <BaseLayout pageTitle={pageTitle}>
-  <h1>{pageTitle}</h1>
   <h2>... and my new Portolio in Astro!</h2>
   <p>Here are a few facts about me:</p>
   <ul>
@@ -24,8 +23,8 @@ const goal = 3;
     }
   </ul>
   <p>My skills are:</p>
-  <ul>
-    {skills.map((skill) => <li class="skill">{skill}</li>)}
+  <ul class="skills">
+    {skills.map((skill) => <li class="skills__link">{skill}</li>)}
   </ul>
 
   {happy && <p>I am happy to be learning Astro!</p>}
