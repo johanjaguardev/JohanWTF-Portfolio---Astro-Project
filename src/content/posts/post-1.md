@@ -45,13 +45,19 @@ Stay tuned for updates on my journey, insights into the tech stack I'm using, an
 
 8. **Extend with view transtitions**: Complete tutorial part abouyt view transitions.
 
-## What's next
+9. **CSS and UI Improvement**: making some css and UI improvement, image and logo inclusion and some related tasks.
 
+10. **Projects Section**: Create 3 projects section, without categories.
+
+
+## What's next
 
 1. **Strapi Integration or another CMS**: Enable strapi and manage the content of portfolio and blog with this cms.
 
-2. **CSS and UI Improvement**: making some css and UI improvement, image and logo inclusion and some related tasks.
+2. **Projects by Categories**: Create all projects section with category separation.
 
-3. **A11Y review and bugfix**: Improve accesibility of this blog.
+3. **Using HTML components**: Implement component to improve UX of content of portfolio.
 
-4. **Enable multilanguage**: Enable Spanish translations for the content.
+4. **A11Y review and bugfix**: Improve accesibility of this blog.
+
+5. **Enable multilanguage**: Enable Spanish translations for the content.
