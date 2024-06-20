@@ -37,20 +37,21 @@ Stay tuned for updates on my journey, insights into the tech stack I'm using, an
 
 4. **Finish Basic tutorial**: I finished the basic tutorial.
 
+5. **Create real content**: First, I put basic information about my profile and some projects.
+
+6. **Create first real posts**: I'll remove dummy post and create some post with real information about my new projects.
+
+7. **Extend with content Collections**: Complete tutorial part about content collections.
+
+8. **Extend with view transtitions**: Complete tutorial part abouyt view transitions.
+
 ## What's next
 
-1. **Create real content**: First, I put basic information about my profile and some projects.
 
-2. **Create first real posts**: I'll remove dummy post and create some post with real information about my new projects.
+1. **Strapi Integration or another CMS**: Enable strapi and manage the content of portfolio and blog with this cms.
 
-3. **Extend with content Collections**: Complete tutorial part about content collections.
+2. **CSS and UI Improvement**: making some css and UI improvement, image and logo inclusion and some related tasks.
 
-4. **Extend with view transtitions**: Complete tutorial part abouyt view transitions.
+3. **A11Y review and bugfix**: Improve accesibility of this blog.
 
-5. **Strapi Integration or another CMS**: Enable strapi and manage the content of portfolio and blog with this cms.
-
-6. **CSS and UI Improvement**: making some css and UI improvement, image and logo inclusion and some related tasks.
-
-7. **A11Y review and bugfix**: Improve accesibility of this blog.
-
-8. **Enable multilanguage**: Enable Spanish translations for the content.
+4. **Enable multilanguage**: Enable Spanish translations for the content.
