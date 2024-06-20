@@ -28,11 +28,11 @@ skills: [
 
 In the case of the Air Canada project, the challenge was to enhance the airline’s homepage by implementing modern design patterns and user-friendly features Leveraging Angular 17, we aimed to create responsive and accessible components, ensuring compatibility with screen readers (NVDA and VoiceOver). Additionally, we focused on developing pixel-perfect layouts and consistent rendering across various devices and browsers. To manage state efficiently, we implemented Redux. Rigorous unit testing was conducted to validate the functionality and stability of the new home page
 
-![Aircanada Old Desktop Size](/public/ac-desktop-legacy.png)
+![Aircanada Old Desktop Size](/ac-desktop-legacy.png)
 
-![Aircanada Old Tablet Size](/public/ac-tablet-legacy.png)
+![Aircanada Old Tablet Size](/ac-tablet-legacy.png)
 
-![Aircanada Old Mobile Size](/public/ac-mobile-legacy.png)
+![Aircanada Old Mobile Size](/ac-mobile-legacy.png)
 
 ## Solution Provided
 
@@ -40,6 +40,6 @@ This initiative allowed Air Canada to optimize its distribution via the Amadeus 
 In response to the challenge, our team successfully developed a modern website that emulates the look and feel of a single-page application. This responsive site is compatible with major browsers and optimized for accessibility, ensuring a positive user experience for all, including those who rely on screen readers. By prioritizing accessibility (a11y), we aimed to create an inclusive digital platform for Air Canada’s travelers.
 
 
-![Placeholder Image](/public/ac-desktop-1.png)
-![Placeholder Image](/public/ac-mobile-1.png)
-![Placeholder Image](/public/ac-mobile-1.png)
+![Placeholder Image](/ac-desktop-1.png)
+![Placeholder Image](/ac-mobile-1.png)
+![Placeholder Image](/ac-mobile-1.png)
