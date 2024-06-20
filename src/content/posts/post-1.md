@@ -49,15 +49,22 @@ Stay tuned for updates on my journey, insights into the tech stack I'm using, an
 
 10. **Projects Section**: Create 3 projects section, without categories.
 
+11. **Preview thumbnail**: Improve blog view to show a thumbnail.
 
 ## What's next
 
 1. **Skills list**: Create skill List to be shown in each project.
-2. **Preview thumbnail**: Improve blog view to show a thumbnail.
-3. **Strapi Integration or another CMS**: Enable strapi and manage the content of portfolio and blog with this cms.
-4. **Projects by Categories**: Create all projects section with category separation.
-5. **Using HTML components**: Implement component to improve UX of content of portfolio.
-6. **A11Y review and bugfix**: Improve accesibility of this blog.
-7. **Enable multilanguage**: Enable Spanish translations for the content.
-8. **Create new fields to project content**: URL, images, fields related to study case, year, etc.
-9. **Research project and write all with cms**: fill a lot of content.
+
+2. **Strapi Integration or another CMS**: Enable strapi and manage the content of portfolio and blog with this cms.
+
+3. **Projects by Categories**: Create all projects section with category separation.
+
+4. **Using HTML components**: Implement component to improve UX of content of portfolio.
+
+5. **A11Y review and bugfix**: Improve accesibility of this blog.
+
+6. **Enable multilanguage**: Enable Spanish translations for the content.
+
+7. **Create new fields to project content**: URL, images, fields related to study case, year, etc.
+
+8. **Research project and write all with cms**: fill a lot of content.
