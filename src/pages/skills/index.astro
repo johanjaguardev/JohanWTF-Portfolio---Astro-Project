@@ -1,0 +1,38 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+const allProjects = await getCollection("projects");
+const skills = [...new Set(allProjects.map((project) => project.data.skills).flat())];
+const pageTitle = "Tag Index";
+---
+<BaseLayout pageTitle={pageTitle}>
+  <div class="skills">
+    {
+      skills.map((skill) => (
+        <p class="skill">
+          <a href={`/skills/${skill}`}>{skill}</a>
+        </p>
+      ))
+    }
+  </div>
+</BaseLayout>
+<style>
+  a {
+    color: #00539f;
+  }
+
+  .skills {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+
+  .skill {
+    margin: 0.25em;
+    border: dotted 1px #a1a1a1;
+    border-radius: 0.5em;
+    padding: 0.5em 1em;
+    font-size: 1.15em;
+    background-color: #f8fcfd;
+  }
+</style>

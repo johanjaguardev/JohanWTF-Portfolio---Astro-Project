@@ -155,6 +155,25 @@ a {
   
 }
 
+a.project__skill, a.post__tag {
+  background-color: transparent;
+  border: 1px solid $dark-background-color;
+  border-radius: 20px;
+  color: $dark-background-color;
+  cursor: pointer;
+  display: inline;
+  font-size: .7rem;
+  font-weight: bold;
+  margin: 0.2rem;
+  padding: 0.2rem .4rem;
+  text-decoration: none;
+  transition: .3s ease-in-out all;
+
+  &:hover {
+    color: rgba($primary-color, 0.8);
+  }
+}
+
 // Dark mode
 html.dark {
   background-color: $dark-background-color;
@@ -187,7 +206,15 @@ html.dark {
         color: rgba($primary-color, 0.8);
       }
     }
-    
+  }
+
+  a.project__skill, a.post__tag {
+    background-color: transparent;
+    border: 1px solid $primary-color;
+    color: white;
+    &:hover {
+      color: rgba($primary-color, 0.8);
+    }
   }
 }
 
