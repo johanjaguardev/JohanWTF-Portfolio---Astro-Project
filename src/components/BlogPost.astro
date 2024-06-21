@@ -3,8 +3,15 @@ const { title, url, image } = Astro.props
 ---
 <li class="blogpost__li">
   <a href={url}><img class="blogpost__img" src={`${image.url}`} alt={`${image.alt}/`} /></a>
-  <a href={url}>{title}</a>
-  
+  <div class="blogpost__li-content">
+    <div class="blogpost__li-content-title">
+      <a href={url}>{title}</a>
+    </div>
+    <div class="blogpost__li-content-items">
+      <slot />  
+    </div>
+    
+  </div>
 </li>
 <style lang="scss">
   .blogpost {
@@ -14,6 +21,16 @@ const { title, url, image } = Astro.props
       flex-direction: row;
       justify-content: flex-start;
       margin-bottom: 1rem;
+
+      &-content {
+        &-title {
+          margin-bottom: 10px;
+        }
+        &-items {
+          display: flex;
+          flex-wrap: wrap;
+        }
+      }
     }
     &__img {
       margin: 1rem;

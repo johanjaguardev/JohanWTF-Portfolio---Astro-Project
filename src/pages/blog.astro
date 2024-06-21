@@ -11,7 +11,9 @@ const allPosts = await getCollection("posts");
   <ul>
     {
       allPosts.map((post) => (
-        <BlogPost url={`/posts/${post.slug}/`} title={post.data.title} image={post.data.image} />
+        <BlogPost url={`/posts/${post.slug}/`} title={post.data.title} image={post.data.image}>
+          {post.data.tags.map((tag) => { return (<a  class="post__blog" href={`/tags/${tag}/`}>{tag}</a>) })}
+        </BlogPost>
       ))
     }
   </ul>
